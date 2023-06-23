@@ -1,4 +1,5 @@
 # these are some libraries
+import sys
 import time
 import random
 
@@ -168,7 +169,7 @@ while True:
             # this statement to exit the game
             elif let == "n":
                 print("Thanks For Playing Our Game!!")
-                return game
+                sys.exit()
             
     def choice_check():
         # story teller
