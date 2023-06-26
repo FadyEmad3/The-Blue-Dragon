@@ -290,7 +290,7 @@ def village():
                             print('Fortunately, you could hit the' \
                                   'target towards its head and ' \
                                   'finaly you could survive.')
-                            print('Congratulations!! You have won the game !!')
+                            print('Congratulations! You have won the game!')
                             time.sleep(1)
                             print('Score: ' + str(score + 10) + '/10')
                             time.sleep(2)
