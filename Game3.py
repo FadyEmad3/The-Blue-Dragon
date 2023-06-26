@@ -136,7 +136,7 @@ def scene():
         + ' inwhich there is a blue dragon that ' \
           'is danger and it is a big trouble.')
     time.sleep(3)
-    print(" You can also see a small village " \
+    print("You can also see a small village " \
     "that its habitants hates you and you are not " \
     "wellcomed in this village. The individual in " \
     "this village sleep at 22 o'clock. In this " \
