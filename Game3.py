@@ -127,7 +127,10 @@ def scene():
     print('Your Score: ' + str(score) + '/10')
     print("The time is 20 o'clock.")
     time.sleep(1)
-    print('You are in an open place and you are breething fresh air and you have a sword that made of gold in your hand to protect your self.')
+    print("You are in an open place " \
+    "and you are breething fresh air " \
+    "and you have a sword that made of gold" \
+    " in your hand to protect your self.")
     time.sleep(3)
     print('In front of you, you can see a ' + choice \
         + ' inwhich there is a blue dragon that is danger and it is a big trouble.')
@@ -242,30 +245,37 @@ def village():
                 elif input3 == '1':
                     print('You are walking into the ' + choice)
                     time.sleep(1)
-                    print("OHHH...!! It's the blue dragon")
+                    print("OHHH...!!" \
+                          " It's the blue dragon")
                     time.sleep(1)
-                    print('would you like to use the old sword ==> enter(1), the new one ==> enter(2)')
+                    print("would you like to use " \
+                    "the old sword ==> enter(1), the new one ==> enter(2)")
                     for val in yn:
                         input4 = \
                             input('(Please enter one choice only 1 or 2)'
                                   )
                         if input4 == '1':
-                            print('The blue dragon is stronger than you but you are still trying to kill it.')
+                            print('The blue dragon is stronger than you " \
+                            "but you are still trying to kill it.')
                             time.sleep(1)
-                            print('Unfortunately, the blue dragon breathes flames on you.')
+                            print("Unfortunately, the blue dragon " \
+                            "breathes flames on you.")
                             time.sleep(1)
-                            print("You couldn't edure. You Have Been Killed. ")
+                            print("You couldn't edure. " \
+                                  "You Have Been Killed. ")
                             time.sleep(1)
-                            print('Score: ' + str(score + 8.5) + '/10')
+                            print('Score: '+str(score+8.5)+'/10')
                             time.sleep(2)
-                            print('GAME OVER!! Do you want to play again please enter? (y/n)')
+                            print('GAME OVER!! Do you want' \
+                                  'to play again please enter? (y/n)')
                             y_or_n()
                         elif input4 == '2':
                             print('You are using the new sword')
                             time.sleep(1)
                             print('The dragon trying to overcome you, but you are stronger than it.')
                             time.sleep(2)
-                            print('Fortunately, you could hit the target towards its head and finaly you could survive.')
+                            print('Fortunately, you could hit the' \
+                                  'target towards its head and finaly you could survive.')
                             print('Congratulations!! You have won the game !!')
                             time.sleep(1)
                             print('Score: ' + str(score + 10) + '/10')
