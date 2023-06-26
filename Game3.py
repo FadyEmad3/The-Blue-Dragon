@@ -133,9 +133,14 @@ def scene():
     " in your hand to protect your self.")
     time.sleep(3)
     print('In front of you, you can see a ' + choice \
-        + ' inwhich there is a blue dragon that is danger and it is a big trouble.')
+        + ' inwhich there is a blue dragon that ' \
+          'is danger and it is a big trouble.')
     time.sleep(3)
-    print(" You can also see a small village that its habitants hates you and you are not wellcomed in this village. The individual in this village sleep at 22 o'clock. In this village you can find a gigantic and magic diamond sword.")
+    print(" You can also see a small village " \
+    "that its habitants hates you and you are not " \
+    "wellcomed in this village. The individual in " \
+    "this village sleep at 22 o'clock. In this " \
+    "village you can find a gigantic and magic diamond sword.")
     time.sleep(7)
     print('Enter 1 to explore the ' + choice)
     time.sleep(0.5)
@@ -155,7 +160,8 @@ def cave_or_forest():
     time.sleep(1.5)
     print('It is the blue dragon !!')
     time.sleep(0.5)
-    print('Would you like to (1) fight the blue dragon with the golden sword (2) escape from the ' \
+    print('Would you like to (1) fight the blue dragon ' \
+    'with the golden sword (2) escape from the ' \
         + choice)
     time.sleep(0.5)
     for val in yn:
@@ -165,7 +171,8 @@ def cave_or_forest():
             time.sleep(1)
             print('You have just decided to use your sword')
             time.sleep(1)
-            print('The blue dragon is stronger than you but you are still trying to kill it.')
+            print('The blue dragon is stronger than ' \
+            'you but you are still trying to kill it.')
             time.sleep(1)
             print('Unfortunately, the blue dragon breathes flames on you.')
             time.sleep(1)
@@ -204,7 +211,8 @@ def village():
     time.sleep(0.5)
     print('You are walking into the village.')
     time.sleep(1.0)
-    print('If you like to get into the village, enter(1) for now, enter(2) for getting into it after midnight')
+    print('If you like to get into the village, ' \
+    'enter(1) for now, enter(2) for getting into it after midnight')
     time.sleep(0.5)
     for val in yn:
         input2 = input('(Please enter one choice only 1 or 2)')
@@ -219,7 +227,7 @@ def village():
             score += 2
             print('Score: ' + str(score) + '/10')
             time.sleep(2)
-            print('GAME OVER!! Do you want to play again please enter? (y/n)')
+            print('GAME OVER!! Do you want to play again enter? (y/n)')
             y_or_n()
         elif input2 == '2':
             print('you are walking into the village after midnight')
@@ -272,7 +280,8 @@ def village():
                         elif input4 == '2':
                             print('You are using the new sword')
                             time.sleep(1)
-                            print('The dragon trying to overcome you, but you are stronger than it.')
+                            print('The dragon trying to overcome you, ' \
+                                  'but you are stronger than it.')
                             time.sleep(2)
                             print('Fortunately, you could hit the' \
                                   'target towards its head and finaly you could survive.')
