@@ -174,7 +174,8 @@ def cave_or_forest():
             print('The blue dragon is stronger than ' \
             'you but you are still trying to kill it.')
             time.sleep(1)
-            print('Unfortunately, the blue dragon breathes flames on you.')
+            print('Unfortunately, the blue ' \
+                'dragon breathes flames on you.')
             time.sleep(1)
             print("You couldn't edure. You Have Been Killed. ")
             time.sleep(1)
@@ -182,7 +183,8 @@ def cave_or_forest():
             score += 3
             print('Score: ' + str(score) + '/10')
             time.sleep(2)
-            print('GAME OVER!! Do you want to play again please enter? (y/n)')
+            print('GAME OVER!! Do you want to play ' \
+                'again please enter? (y/n)')
             y_or_n()
         elif input1 == '2':
 
@@ -225,7 +227,7 @@ def village():
             time.sleep(1)
             global score
             score += 2
-            print('Score: ' + str(score) + '/10')
+            print('Score: '+str(score)+'/10')
             time.sleep(2)
             print('GAME OVER!! Do you want to play again enter? (y/n)')
             y_or_n()
@@ -236,7 +238,7 @@ def village():
             time.sleep(2)
             print('You have taken the magic sword.')
             time.sleep(1)
-            print('Score: ' + str(score + 7) + '/10')
+            print('Score: '+str(score + 7)+'/10')
             time.sleep(2)
             print('someone is coming !!')
             time.sleep(1)
@@ -248,7 +250,8 @@ def village():
                 if input3 == '2':
                     print('A villager could catch you.')
                     print('Score: ' + str(score + 8) + '/10')
-                    print('GameOver, whould you like to play again ??(y/n)')
+                    print('GameOver, whould you like ' \
+                        'to play again ??(y/n)')
                     y_or_n()
                 elif input3 == '1':
                     print('You are walking into the ' + choice)
@@ -257,14 +260,15 @@ def village():
                           " It's the blue dragon")
                     time.sleep(1)
                     print("would you like to use " \
-                    "the old sword ==> enter(1), the new one ==> enter(2)")
+                    "the old sword ==> enter(1), " \
+                    "the new one ==> enter(2)")
                     for val in yn:
                         input4 = \
                             input('(Please enter one choice only 1 or 2)'
                                   )
                         if input4 == '1':
-                            print('The blue dragon is stronger than you " \
-                            "but you are still trying to kill it.')
+                            print('The blue dragon is stronger than you ' \
+                            'but you are still trying to kill it.')
                             time.sleep(1)
                             print("Unfortunately, the blue dragon " \
                             "breathes flames on you.")
@@ -284,7 +288,8 @@ def village():
                                   'but you are stronger than it.')
                             time.sleep(2)
                             print('Fortunately, you could hit the' \
-                                  'target towards its head and finaly you could survive.')
+                                  'target towards its head and ' \
+                                  'finaly you could survive.')
                             print('Congratulations!! You have won the game !!')
                             time.sleep(1)
                             print('Score: ' + str(score + 10) + '/10')
